@@ -23,6 +23,8 @@ knitr::opts_chunk$set(echo = TRUE)
 #    toc_float: true
 #    highlight: tango
 #    smooth_scroll: false
+
+##summary(arsenal::tableby())
 ```
 
 <br/>  
