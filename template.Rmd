@@ -1,0 +1,53 @@
+---
+title: "Title Here"
+author: "Author Name Here"
+date: "Date Here"
+output:
+  html_document:
+    df_print: paged
+    toc: true
+    toc_float: true
+    highlight: tango
+    smooth_scroll: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+<br/>  
+<br/>    
+
+## {.tabset .tabset-fade}
+
+**Tab Contents**
+
+1. Tab1
+2. Tab2
+3. Tab3
+4. Tab4
+5. Tab5
+
+<br/>  
+<br/>    
+
+### Tab 1  
+
+####Subtab:     
+
+### Tab 2  
+
+####Subtab:     
+
+### Tab 3  
+
+####Subtab:     
+
+### Tab 4  
+
+####Subtab:     
+
+### Tab 5  
+
+####Subtab:     
+
