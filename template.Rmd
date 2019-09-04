@@ -4,17 +4,27 @@ author: "Author Name Here"
 date: "Date Here"
 output:
   html_document:
-    df_print: paged
-    toc: true
-    toc_float: true
+    code_folding: hide
     highlight: tango
     smooth_scroll: false
 ---
 
 
+
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+
+###Second option for Rmd layout with Table of Contents below.
+#output:
+#  html_document:
+#    df_print: paged
+#    toc: true
+#    toc_float: true
+#    highlight: tango
+#    smooth_scroll: false
 ```
+
 <br/>  
 <br/>    
 
